@@ -12,39 +12,49 @@
     --cor9: #17597d;
   }
 
-body {
-    background-color: var(--cor7);
-      margin: 0 10px 0 10px;
-      font-family:'Open Sans', Arial, Helvetica, sans-serif ;
-      font-size: 1.2rem;
+/*  */
+.navigation_header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3em;
+}
+.navigation_header > a{
+  text-decoration: none;
+  color: var(--cor1);
+  transition: 1s;
+  font-weight: bold;
 }
 
-h1, h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
-    color: var(--cor0);
-    }
- /*Container dos perfis   */
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    }
-    
-    .profile {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    width: 200px;
-    }
-    
-    .profile img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    object-position: center;
-    margin-bottom: 10px;
-    }
+    .example-container {
+      background: var(--cor2);
+      padding: 3rem;
+  }
+  *, :after, :before {
+      box-sizing: border-box;
+  }
+  user agent stylesheet
+  div {
+      display: block;
+  }
+  .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: var(--cor8);
+      background-clip: border-box;
+      border: 1px solid var(--cor2);
+      border-radius: 0.25rem;
+  }
+  body {
+      margin: 0;
+      font-family: Nunito,sans-serif;
+      font-size: .935rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: var(--cor0);
+      text-align: left;
+      background-color: var(--cor7);
+  }
