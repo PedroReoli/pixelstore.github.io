@@ -33,7 +33,7 @@
       }
       
       /* Estilo para inputs */
-      input[type="email"], 
+      input[type="user"], 
       input[type="password"], 
       input[type="submit"] {
         border: none;
