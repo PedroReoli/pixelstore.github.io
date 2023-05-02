@@ -1,28 +1,30 @@
 /* Palheta de cores -Início */
 :root {
-  --cor0: #2C3E50;
-  --cor1: #FFF;
-  --cor2: #2980B9;
-  --cor3: #385af3;
-  --cor4: #1B2631;
-  --cor5: #7F8C8D;
-  --cor6: #dda657;
-  --cor7: #7ec1d4; 
-  --cor8: #d1f1fafc;
-  --cor9: #17597d;
+  --cor0: #212121;
+  --cor1: #000000;
+  --cor2: #E63946;
+  --cor3: #FF4081;
+  --cor4: #457B9D;
+  --cor5: #F0A500;
+  --cor6: #ECC94B;
+  --cor7: #F5F5F5;
+  --cor8: #fffefe; 
+  --cor9: #E0E0E0;
 }
+
 /* Palheta de cores - Fim */
 /* ------------------------------------------------------------------------ */
 
 body {
 background-color: var(--cor8);
-  margin: 0 10px 0 10px;
+  margin: 10px 20px 10px 20px;
   box-shadow: 1px 1px 4px black;
 }
 
 /* CSS do cabeçalho - Início */
 .header {
   position: fixed;
+  margin: 0 20px 0 20px;
   top: 0;
   left: 0;
   right: 0;
