@@ -10,71 +10,76 @@
   <!-- A Historia por trás do nosso site se trata de um alienigina do planeta 2d que veio ao nosso universo para vender produtos eletronicos
   os preços são diferenciados por se tratar de um ser que nunca se envolveu com esse tipo de tecnologia... -->
   <body>
+   <video autoplay muted loop id="bg-video">
+  <source src="video/index.mp4" type="video/mp4">
+</video>
 
-    <div class="header" id="header">
-      <div class="logo_header">
-        <img src="CSS/img/favicon.png" alt="">
-      </div>
-      <div class="navigation_header">
-        <a href="index.html" class="active">Home</a>
-        <a href="login.html" >Login</a>
-        <a href="carrinho.html">Carrinho</a>
-        <a href="contato.html">Contato</a>
-      </div>
-    </div>
-    <div class="content" id="content">
-      <h1>PixelStore</h1>
-      <h2>A Melhor loja de eletrônicos do Universo</h2>
-
-    </div>
     
-
-        <div class="promotionlist">
-          <div>
-            <h3>Promoção</h3>
-            <p>Confira nossas ofertas em periféricos de PC:</p>
+        <div class="header" id="header">
+          <div class="logo_header">
+            <img src="CSS/img/favicon.png" alt="">
           </div>
+          <div class="navigation_header">
+            <a href="index.html" class="active">Home</a>
+            <a href="login.html" >Login</a>
+            <a href="carrinho.html">Carrinho</a>
+            <a href="contato.html">Contato</a>
+          </div>
+        </div>
+        <div class="content" id="content">
+          <h1>PixelStore</h1>
+          <h2>A Melhor loja de eletrônicos do Universo</h2>
 
-          <div class="products">
-
-            <div class="slides">
-              <input type="radio" name="radio-btn" id="radio1">
-              <input type="radio" name="radio-btn" id="radio2">
-              <input type="radio" name="radio-btn" id="radio3">
-            
-
-              <div class="product first">
-                <p class="name">Mouse Gamer</p>
-                <p class="price"><s>R$80</s> R$50</p>
-                <img src="img/mouse_slider.webp" alt="Mouse Gamer" id="mouse">
-              </div>
-              <div class="product">
-                <p class="name">Teclado Mecânico</p>
-                <p class="price"><s>R$150</s> R$100</p>
-                <img src="img/teclado_slider.jpg" alt="Teclado Mecânico">
-              </div>
-              <div class="product">
-                <p class="name">Fone de Ouvido Gamer</p>
-                <p class="price"><s>R$200</s> R$80</p>
-                <img src="img/hyper_slider2.jpg" alt="Fone de Ouvido Gamer" id="fone">
-              </div>
-
-              <div class="navigation_auto">
-                <div class="auto_btn1"></div>
-                <div class="auto_btn2"></div>
-                <div class="auto_btn3"></div>
-              </div>
-            </div>
+        </div>
         
 
-            <div class="manual-navigation">
-              <label for="radio1" class="manual-btn"></label>
-              <label for="radio2" class="manual-btn"></label>
-              <label for="radio3" class="manual-btn"></label>
+            <div class="promotionlist">
+              <div>
+                <h3>Promoção</h3>
+                <p>Confira nossas ofertas em periféricos de PC:</p>
+              </div>
+
+              <div class="products">
+
+                <div class="slides">
+                  <input type="radio" name="radio-btn" id="radio1">
+                  <input type="radio" name="radio-btn" id="radio2">
+                  <input type="radio" name="radio-btn" id="radio3">
+                
+
+                  <div class="product first">
+                    <p class="name">Mouse Gamer</p>
+                    <p class="price"><s>R$80</s> R$50</p>
+                    <img src="img/mouse_slider.webp" alt="Mouse Gamer" id="mouse">
+                  </div>
+                  <div class="product">
+                    <p class="name">Teclado Mecânico</p>
+                    <p class="price"><s>R$150</s> R$100</p>
+                    <img src="img/teclado_slider.jpg" alt="Teclado Mecânico">
+                  </div>
+                  <div class="product">
+                    <p class="name">Fone de Ouvido Gamer</p>
+                    <p class="price"><s>R$200</s> R$80</p>
+                    <img src="img/hyper_slider2.jpg" alt="Fone de Ouvido Gamer" id="fone">
+                  </div>
+
+                  <div class="navigation_auto">
+                    <div class="auto_btn1"></div>
+                    <div class="auto_btn2"></div>
+                    <div class="auto_btn3"></div>
+                  </div>
+                </div>
+            
+
+                <div class="manual-navigation">
+                  <label for="radio1" class="manual-btn"></label>
+                  <label for="radio2" class="manual-btn"></label>
+                  <label for="radio3" class="manual-btn"></label>
+                </div>
+
+              </div>
             </div>
-
-          </div>
-
+      
       <!-- container aqui  -->
     <div>
       <!-- Segue os 18 produtos abaixo(Sei que eu exagerei) -->
@@ -200,7 +205,9 @@
             </ul>
           </div>
         </div>
-      </div>
+    </div>
+
+    </div>
       <!-- teste -->
       
       <!-- Esse script linkará com outros -->

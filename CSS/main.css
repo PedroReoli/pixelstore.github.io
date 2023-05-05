@@ -1,9 +1,9 @@
 /* Palheta de cores -Início */
 :root {
   --cor0: #212121;
-  --cor1: #000000;
+  --cor1: #ffea01;
   --cor2: #E63946;
-  --cor3: #FF4081;
+  --cor3: #a640fff8;
   --cor4: #457B9D;
   --cor5: #F0A500;
   --cor6: #ECC94B;
@@ -17,19 +17,21 @@
 
 body {
 background-color: var(--cor8);
-  margin: 10px 20px 10px 20px;
+margin:  0;
+padding: 0;
   box-shadow: 1px 1px 4px black;
+  
 }
 
 /* CSS do cabeçalho - Início */
 .header {
   position: fixed;
-  margin: 0 20px 0 20px;
+  /* margin: 0 10px 0 10px; */
   top: 0;
   left: 0;
   right: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: var(--cor9);
+  background-color: var(--cor3);
   color: var(--cor1);
   display: flex;
   flex-direction: row;
@@ -44,7 +46,6 @@ background-color: var(--cor8);
 }
 
 .content {
-  background-color: var(--cor8);
   text-align: center;
   padding-top: 10px;
   transition: 1s;
@@ -52,6 +53,10 @@ background-color: var(--cor8);
   font-weight: bold;
   margin-top: 3em; /* margem superior igual a altura do header */
 }
+.content ,p{
+  color: var(--cor1);
+}
+
 
 .navigation_header{
   display: flex;
@@ -74,7 +79,7 @@ background-color: var(--cor8);
 }
 .content{
   
-  background-color: var(--cor8);
+  
   text-align: center;
   padding-top: 10px;
   transition: 1s;
@@ -98,6 +103,7 @@ main {
   font-size: 2.3em;
   font-weight: bold;
   text-align: center;
+  color: var(--cor1);
 }
 .promotionlist p {
   font-size: 2em;
@@ -106,7 +112,6 @@ main {
 }
 .promotionlist {
   text-align: center;
-  background-color: var(--cor7);
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -176,7 +181,7 @@ main {
   margin-left: -51%;
 }
 .navigation_auto > div{
-  border: 2px solid var(--cor3);
+  border: 2px solid var(--cor);
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
@@ -207,7 +212,7 @@ main {
   font-size: 1.7em;
 }
 .product .price {
-  color: var(--cor0);
+  color: var(--cor1);
   font-size: 1.3rem;
   margin-top: 0px;
   
@@ -262,6 +267,7 @@ main {
   margin: 10px 0;
   font-size: 1.1rem;
   font-weight: bold;
+  color: var(--cor0);
 }
 .product-grid-item > button {
   background-color: var(--cor3);
@@ -277,7 +283,20 @@ main {
   background-color: var(--cor2);
   color: #1c1c1c;
   border: 2px solid #1c1c1c;
+  
 }
+/* ------------------------------------------------------------------------------ */
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  background-size: cover;
+}
+
+
 /* ------------------------------------------------------------------------------ */
 
 /* Estilo para o campo de frete */
@@ -300,6 +319,7 @@ main {
 .shipping-section p {
   margin-top: 8px;
   font-weight: bold;
+
 }
 /* ------------------------------------------------------------------------------ */
 
