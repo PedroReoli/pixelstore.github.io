@@ -2,9 +2,9 @@
 :root {
   --cor0: #212121;
   --cor1: #ffea01;
-  --cor2: #E63946;
+  --cor2: #72fefe;
   --cor3: #32c8df ;
-  --cor4: #457B9D;
+  --cor4: #e8ebed;
   --cor5: #F0A500;
   --cor6: #ECC94B;
   --cor7: #F5F5F5;
@@ -44,6 +44,12 @@ padding: 0;
   padding-bottom: 20px;
   z-index: 9999;
 }
+.logo_header img {
+  width: 100px;
+  height: 80px;
+  
+}
+  /* outras propriedades de estilo */
 
 .content {
   text-align: center;
@@ -321,6 +327,7 @@ main {
   font-weight: bold;
 
 }
+
 /* ------------------------------------------------------------------------------ */
 
 /* Media queries */

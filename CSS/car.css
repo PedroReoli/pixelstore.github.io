@@ -1,10 +1,10 @@
 /* CSS DO CARRINHO */
 /* Paleta de cores  */
 :root {
-  --cor0: #2C3E50;
+  --cor0: #ffea01;
   --cor1: #FFF;
   --cor2: #2980B9;
-  --cor3: #385af3;
+  --cor3: #32c8df;
   --cor4: #1B2631;
   --cor5: #7F8C8D;
   --cor6: #fffd82;
@@ -13,9 +13,7 @@
   --cor9: #16bec3;
 }
 
-body {
-  background-image: url(img/wallpaper-5.png);
-}
+
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--cor0);
@@ -34,6 +32,7 @@ table, th, td {
 th, td {
   padding: 10px;
   text-align: left;
+  color: var(--cor0);
 }
 
 th {
@@ -51,6 +50,7 @@ tr:hover {
 /* TTabela End */
 p {
   font-size: 20px;
+  color: var(--cor0);
 }
 
 button {
@@ -65,4 +65,14 @@ button {
 
 button:hover {
   background-color: var(--cor4);
+}
+
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  background-size: cover;
 }
