@@ -1,9 +1,9 @@
        /* Paleta de cores */
        :root {
-        --cor0: #2C3E50;
+        --cor0: #212121;
         --cor1: #FFF;
-        --cor2: #2980B9;
-        --cor3: #385af3;
+        --cor2: #72fefe;
+        --cor3: #32c8df;
         --cor4: #1B2631;
         --cor5: #7F8C8D;
         --cor6: #fffd82;
@@ -11,6 +11,7 @@
         body{
         
         background-color:var(--cor0) ;
+        overflow: hidden;
       }
       /* Estilo para o contêiner */
 
@@ -61,6 +62,14 @@
 } 
       /* Estilo para o botão hover */
       input[type="submit"]:hover {
-        background-color: #007FFF;
+        background-color: #72fefe;
       }
-    
+      #bg-video {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+        object-fit: cover;
+      }
