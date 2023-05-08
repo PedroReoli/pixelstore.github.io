@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
     <title>LOGIN</title>
     <link rel="stylesheet" href="CSS/login.css">
 </head>
 <body>
-    <a href="index.html">principal</a>
+    
     <div id="teste">
     <video autoplay muted loop id="bg-video">
         <source src="video/BV.mp4" type="video/mp4">
       </video>
     </div>
     <main>
+        
         <form id="login-form" action="">
-
+            <h1>Login</h1>
             <label for="email" id="ambos">Endereço de E-mail:</label> <br>
             <input id="email" type="email" placeholder="E-mail"><br>
             <label for="senha" id="ambos">Sua senha:</label> <br>
@@ -24,9 +26,28 @@
             <input type="submit" value="Entrar" id="entrar"><br>
             <p class="text-muted">Esqueceu a senha? <a href="redefinir.html" class="text-muted ms-1"><b>Redefinir</b></a></p> 
             <p class="text-muted">Não possui login? <a href="registrar.html" class="text-muted ms-1"><b>Cadastre-se</b></a></p>
-            
+             <!-- social-->
+                <div class="text-center mt-4 d-flex justify-content-center">
+                <h2 class="text-muted font-16">Faça login usando:</h2>
+                <ul class="social-list list-inline mt-3">
+                    <li class="list-inline-item">
+                    <a href="javascript:void(0);" class="social-list-item border-primary text-primary d-inline-block"><i class="mdi mdi-facebook mdi-24px"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                    <a href="javascript:void(0);" class="social-list-item border-danger text-danger d-inline-block"><i class="mdi mdi-google mdi-24px"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                    <a href="javascript:void(0);" class="social-list-item border-info text-info d-inline-block"><i class="mdi mdi-twitter mdi-24px"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                    <a href="javascript:void(0);" class="social-list-item border-secondary text-secondary d-inline-block"><i class="mdi mdi-github mdi-24px"></i></a>
+                    </li>
+                </ul>
+                </div>
         </form>
+        
     </main>
+    <a href="index.html">principal</a>
     <!-- O Script usa o LocalStorage  -->
     <script src="JS/log.js"></script>
 </body>
