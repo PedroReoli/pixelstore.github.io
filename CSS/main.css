@@ -44,7 +44,7 @@ padding: 0;
   padding-bottom: 20px;
   z-index: 9999;
 }
-.logo_header img {
+.logo_header > img {
   width: 100px;
   height: 80px;
   
@@ -331,18 +331,5 @@ main {
 /* ------------------------------------------------------------------------------ */
 
 /* Media queries */
-@media screen and (max-width: 800px) {
-  .anuncio {
-  margin-left: 20px;
-  }
-  
-  .login {
-  margin-left: 20px;
-  }
-  
-  main {
-  padding: 10px;
-  }
-}
 
 

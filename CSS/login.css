@@ -3,7 +3,9 @@
   --secondary-color: #72fefe;
   --font-size: 1.2rem;
 }
-
+/* * {
+  margin:0
+} */
 body {
   margin: 0;
   height: 100%;
@@ -13,6 +15,8 @@ body {
 }
 
 .container {
+  max-width: 960px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   height: 100%;
@@ -122,3 +126,6 @@ input[type="submit"]:hover {
   align-items: center;
   justify-content: center;
 }
+/*------------------------------------------------------------------*/
+                  /* RESPONSIVIDADE */
+/*------------------------------------------------------------------*/
